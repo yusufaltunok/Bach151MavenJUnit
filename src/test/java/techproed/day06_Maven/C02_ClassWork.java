@@ -62,51 +62,6 @@ public class C02_ClassWork {
 
 
 
-        /*
-        WebDriver myDriver = new ChromeDriver();
-        myDriver.manage().window().maximize();
-        myDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-
-        //1.http://zero.webappsecurity.com sayfasina gidin
-        myDriver.get("http://zero.webappsecurity.com");
-
-        //Signin buttonuna tiklayin
-        myDriver.findElement(By.xpath("(//*[@id='signin_button'])[1]")).click();
-
-        //Login alanine "username" yazdirin,Password alanine "password" yazdirin
-        WebElement login = myDriver.findElement(By.xpath("//*[@id='user_login'][1]"));
-        login.sendKeys("username", Keys.TAB, "password");
-
-        //Sign in buttonuna tiklayin
-        myDriver.findElement(By.cssSelector("input[type='submit']")).click();
-
-        myDriver.navigate().back();
-
-        //Pay Bills sayfasina gidin
-        myDriver.findElement(By.xpath("(//*[text()='Online Banking'])[1]")).click();
-        myDriver.findElement(By.xpath("//*[text()='Pay Bills']")).click();
-        Thread.sleep(3000);
-
-        //amount kismina yatirmak istediginiz herhangi bir miktari yazin
-        WebElement amount = myDriver.findElement(By.xpath("//*[@id='sp_amount']"));
-        amount.sendKeys("200", Keys.TAB, "2020-09-10");
-        Thread.sleep(3000);
-
-        //Pay buttonuna tiklayin
-        myDriver.findElement(By.id("pay_saved_payees")).click();
-
-        //"The payment was successfully submitted." mesajinin ciktigini control edin
-        WebElement successfully = myDriver.findElement(By.xpath("//*[text()='The payment was successfully submitted.']"));
-        String basariliYazisi = successfully.getText();
-        if (basariliYazisi.equals("The payment was successfully submitted.")) {
-            System.out.println("Tebrikler başarıyla ödeme gerçekleşti");
-        } else {
-            System.out.println("Test FAILED");
-        }
-
-        myDriver.close();
-
-         */
 
     }
 }
