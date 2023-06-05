@@ -19,23 +19,6 @@ public class Calisma {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
 
-//         1.) Bir class oluşturun : Locators_css
-//         2.) Main method oluşturun ve aşağıdaki görevi tamamlayın.
-//         a. Verilen web sayfasına gidin. "https://www.heroku.com/home"
-//        driver.get("https://www.heroku.com/home");
-//        driver.findElement(By.cssSelector("a[href='https://id.heroku.com']")).click();
-
-//         b.Locate email textbox
-//        driver.findElement(By.cssSelector("input[name='email']")).sendKeys("testtechproed@gmail.com", Keys.TAB,"Test1234!",Keys.TAB,Keys.ENTER);
-
-//         c. Locate password textbox ve
-
-//         d.Locate signin button
-//        e. Asagidaki kullanıcı adını ve şifreyi girin ve sign in düğmesini tıklayın
-//        i. Username : testtechproed@gmail.com
-//        ii.Password : Test1234!
-// NOT: cssSelector kullanarak elementleri locate ediniz (
-
 
 //        1. Tarayıcıyı başlatın
 //        2. 'http://automationexercise.com' URL'sine gidin
