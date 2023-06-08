@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83b15ede-f827-44ac-9d3c-32dc52535fc2" name="Changes" comment="05/06/23">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day08_BeforeClassAfterClass_Assertion/C01_BeforeClassAfterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day08_BeforeClassAfterClass_Assertion/C02_BeforeClassAfterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day08_BeforeClassAfterClass_Assertion/C03_BeforeClassAfterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day08_BeforeClassAfterClass_Assertion/C04_CheckBoxClassWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day08_BeforeClassAfterClass_Assertion/C05_RadioButtonClassWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day08_BeforeClassAfterClass_Assertion/C06_Assertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day08_BeforeClassAfterClass_Assertion/C07_AssertionClassWork.java" afterDir="false" />
+    <list default="true" id="83b15ede-f827-44ac-9d3c-32dc52535fc2" name="Changes" comment="06/06/23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,14 +175,22 @@
       <option name="project" value="LOCAL" />
       <updated>1685996831503</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="06/06/23">
+      <created>1686083688058</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686083688058</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="03/06/23" />
     <MESSAGE value="04/06/23" />
     <MESSAGE value="05/06/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="05/06/23" />
+    <MESSAGE value="06/06/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="06/06/23" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
