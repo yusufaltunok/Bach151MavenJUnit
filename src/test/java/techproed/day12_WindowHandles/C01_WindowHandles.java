@@ -45,8 +45,8 @@ public class C01_WindowHandles extends TestBase {
 
         for (String w : pencereler) {
             System.out.println(w);
-            if (!w.equals(ilkSayfaHandle)) {  // F0A2063D75CFCC3EA14A1464674D706A --> ilk sayfa handle ddeğeri
-                driver.switchTo().window(w); // F5D1F6EC10E3335055C95471A62B44A2 --> ikinci sayfa handle ddeğeri
+            if (!w.equals(ilkSayfaHandle)) {  // F0A2063D75CFCC3EA14A1464674D706A --> ilk sayfa handle değeri
+                driver.switchTo().window(w); // F5D1F6EC10E3335055C95471A62B44A2 --> ikinci sayfa handle değeri
             }
 
         }
@@ -100,8 +100,8 @@ public class C01_WindowHandles extends TestBase {
         String exceptedTitle2 = "New Window";
         Assert.assertEquals(ikinciSayfaTitle, exceptedTitle2);
         /*
-          getWindowHandles() methodunu kullanarak acilan tum pencerelerin handle degerlerini bir arraylist' e atadaik
-        Index 0(sifir)'dan basladigi icin kontrolum disinda acilan pencere 1. index de oldugundan
+          getWindowHandles() methodunu kullanarak acilan tum pencerelerin handle degerlerini bir arraylist' e atadik
+        Index 0(sifir)'dan basladigi icin kontrolumuz disinda acilan pencere 1. index de oldugundan
          driver.switchTo().window(pencereler.get(1)); ile yeni acilan pencereye gecis yaptik
          */
 
@@ -193,18 +193,13 @@ public class C01_WindowHandles extends TestBase {
 
     /*
     Set ve ArrayList kullanmadan switchTo().window() methodu içine argüman olarak driver.getWindowHandles()
-    methodunu ile bütün açılan pencereli bir array olarak alıp index belirterek isteğim pencereye geçiş yapabilirim.
+    methodunu ile bütün açılan pencereleri bir array olarak alıp index belirterek isteğim pencereye geçiş yapabilirim.
      */
         String actualTitleNewWindow = driver.getTitle();
         String expectedTitleNewWindow = "New Window";
         Assert.assertEquals(expectedTitleNewWindow, actualTitleNewWindow);
-    /*
-        getWindowHandles() methodunu kullanarak açılan tüm pencerelerin handle değerlerini bir arraylist'e atadık.
-    Index 0(sıfır)'dan başladığı için kontrolüm dışında açılan pencere 1. index de olduğundan
-     driver.switchTo().window(pencereler.get(1)); ile yeni açılan penceye geçiş yaptık
-     */
-
         bekle(2);
+
         //  ilk sayfaya dönün ve Title'ının "The Internet" olduğunu test edin.
         switchToWindow(0);
         String ilkSayfaActualTitle = driver.getTitle();
@@ -214,6 +209,7 @@ public class C01_WindowHandles extends TestBase {
         //  ikinci sayfaya tekrar geçin.
         switchToWindow(1);
         bekle(2);
+
         //  ilk sayfaya tekrar dönün.
         switchToWindow(0);
 

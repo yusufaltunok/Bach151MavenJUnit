@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83b15ede-f827-44ac-9d3c-32dc52535fc2" name="Changes" comment="13/06/23">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day12_WindowHandles/C01_WindowHandles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day12_WindowHandles/C02_BasicAuthentication.java" afterDir="false" />
+    <list default="true" id="83b15ede-f827-44ac-9d3c-32dc52535fc2" name="Changes" comment="15/06/23">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day13_Cookies_Actions/C01_Cookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day13_Cookies_Actions/C02_Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day13_Cookies_Actions/C03_Actions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day12_WindowHandles/C01_WindowHandles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day12_WindowHandles/C01_WindowHandles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,33 +53,17 @@
   }
 }</component>
   <component name="RunManager" selected="JUnit.C02_BasicAuthentication.test01">
-    <configuration name="C01_WindowHandles.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_Cookies.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bach151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day12_WindowHandles.*" />
+          <option name="PATTERN" value="techproed.day13_Cookies_Actions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day12_WindowHandles" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day12_WindowHandles.C01_WindowHandles" />
+      <option name="PACKAGE_NAME" value="techproed.day13_Cookies_Actions" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day13_Cookies_Actions.C01_Cookies" />
       <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_WindowHandles.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bach151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day12_WindowHandles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day12_WindowHandles" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day12_WindowHandles.C01_WindowHandles" />
-      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,6 +85,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C02_Actions.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bach151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day13_Cookies_Actions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day13_Cookies_Actions" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day13_Cookies_Actions.C02_Actions" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C02_BasicAuthentication.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bach151MavenJUnit" />
       <extension name="coverage">
@@ -116,17 +117,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_WindowHandle.windowHandleTab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_Actions.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bach151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day11_Iframe_WindowHandle.*" />
+          <option name="PATTERN" value="techproed.day13_Cookies_Actions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day11_Iframe_WindowHandle" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day11_Iframe_WindowHandle.C03_WindowHandle" />
-      <option name="METHOD_NAME" value="windowHandleTab" />
+      <option name="PACKAGE_NAME" value="techproed.day13_Cookies_Actions" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day13_Cookies_Actions.C03_Actions" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,10 +136,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.C02_BasicAuthentication.test01" />
+        <item itemvalue="JUnit.C03_Actions.test01" />
+        <item itemvalue="JUnit.C02_Actions.test01" />
+        <item itemvalue="JUnit.C01_Cookies.test01" />
         <item itemvalue="JUnit.C01_WindowHandles.test04" />
-        <item itemvalue="JUnit.C01_WindowHandles.test02" />
-        <item itemvalue="JUnit.C01_WindowHandles.test01" />
-        <item itemvalue="JUnit.C03_WindowHandle.windowHandleTab" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686690786641</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="15/06/23">
+      <created>1686861132360</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686861132360</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -217,7 +225,8 @@
     <MESSAGE value="06/06/23" />
     <MESSAGE value="07/06/23" />
     <MESSAGE value="13/06/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="13/06/23" />
+    <MESSAGE value="15/06/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="15/06/23" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
