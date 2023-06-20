@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83b15ede-f827-44ac-9d3c-32dc52535fc2" name="Changes" comment="16/06/23">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day15_filesExist/C01_FilesExist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day15_filesExist/C02_FileDownloadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day15_filesExist/C03_FileUploadTest.java" afterDir="false" />
+    <list default="true" id="83b15ede-f827-44ac-9d3c-32dc52535fc2" name="Changes" comment="19/06/23">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day16_SeleniumWait/C01_ExplicitWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day16_SeleniumWait/C02_ExplicitWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day16_SeleniumWait/C03_FluentWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day16_SeleniumWait/C04_ExplicitWaitClassWork.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day09_DropdownMenu/C02_Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day09_DropdownMenu/C02_Dropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,65 +53,34 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.lilittlecat.chatgpt.setting.ChatGPTSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C03_FileUploadTest.test01">
-    <configuration name="C01_FilesExist.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C04_ExplicitWaitClassWork.test01">
+    <configuration name="C01_ExplicitWait.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bach151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day15_filesExist.*" />
+          <option name="PATTERN" value="techproed.day16_SeleniumWait.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day15_filesExist" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day15_filesExist.C01_FilesExist" />
-      <option name="METHOD_NAME" value="test03" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_FilesExist.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bach151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day15_filesExist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day15_filesExist" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day15_filesExist.C01_FilesExist" />
-      <option name="METHOD_NAME" value="test04" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_FileDownloadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bach151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day15_filesExist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day15_filesExist" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day15_filesExist.C02_FileDownloadTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_FileDownloadTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bach151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day15_filesExist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day15_filesExist" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day15_filesExist.C02_FileDownloadTest" />
+      <option name="PACKAGE_NAME" value="techproed.day16_SeleniumWait" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day16_SeleniumWait.C01_ExplicitWait" />
       <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_ExplicitWait.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bach151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day16_SeleniumWait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day16_SeleniumWait" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day16_SeleniumWait.C01_ExplicitWait" />
+      <option name="METHOD_NAME" value="test04" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,13 +102,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C03_FluentWait.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bach151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day16_SeleniumWait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day16_SeleniumWait" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day16_SeleniumWait.C03_FluentWait" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_ExplicitWaitClassWork.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bach151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day16_SeleniumWait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day16_SeleniumWait" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day16_SeleniumWait.C04_ExplicitWaitClassWork" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C04_ExplicitWaitClassWork.test01" />
+        <item itemvalue="JUnit.C03_FluentWait.test02" />
+        <item itemvalue="JUnit.C01_ExplicitWait.test04" />
+        <item itemvalue="JUnit.C01_ExplicitWait.test01" />
         <item itemvalue="JUnit.C03_FileUploadTest.test01" />
-        <item itemvalue="JUnit.C02_FileDownloadTest.test01" />
-        <item itemvalue="JUnit.C02_FileDownloadTest" />
-        <item itemvalue="JUnit.C01_FilesExist.test04" />
-        <item itemvalue="JUnit.C01_FilesExist.test03" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687033963888</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="19/06/23">
+      <created>1687206976389</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687206976389</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -240,7 +249,8 @@
     <MESSAGE value="13/06/23" />
     <MESSAGE value="15/06/23" />
     <MESSAGE value="16/06/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="16/06/23" />
+    <MESSAGE value="19/06/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="19/06/23" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
