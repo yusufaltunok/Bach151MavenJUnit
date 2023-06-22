@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83b15ede-f827-44ac-9d3c-32dc52535fc2" name="Changes" comment="19/06/23">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day16_SeleniumWait/C01_ExplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day16_SeleniumWait/C02_ExplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day16_SeleniumWait/C03_FluentWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day16_SeleniumWait/C04_ExplicitWaitClassWork.java" afterDir="false" />
+    <list default="true" id="83b15ede-f827-44ac-9d3c-32dc52535fc2" name="Changes" comment="20/06/23">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day17_Exceptions/C01_NoSuchElementException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day17_Exceptions/C02_TimeOutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day17_Exceptions/C03_NullPointerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day17_Exceptions/C04_StaleElementReferenceException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day16_SeleniumWait/C01_ExplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day16_SeleniumWait/C01_ExplicitWait.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,82 +53,82 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.lilittlecat.chatgpt.setting.ChatGPTSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C04_ExplicitWaitClassWork.test01">
-    <configuration name="C01_ExplicitWait.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C04_StaleElementReferenceException.test04">
+    <configuration name="C02_TimeOutException.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bach151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day16_SeleniumWait.*" />
+          <option name="PATTERN" value="techproed.day17_Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day16_SeleniumWait" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day16_SeleniumWait.C01_ExplicitWait" />
+      <option name="PACKAGE_NAME" value="techproed.day17_Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day17_Exceptions.C02_TimeOutException" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_ExplicitWait.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_TimeOutException.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bach151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day16_SeleniumWait.*" />
+          <option name="PATTERN" value="techproed.day17_Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day16_SeleniumWait" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day16_SeleniumWait.C01_ExplicitWait" />
-      <option name="METHOD_NAME" value="test04" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_FileUploadTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bach151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day15_filesExist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day15_filesExist" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day15_filesExist.C03_FileUploadTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_FluentWait.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bach151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day16_SeleniumWait.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day16_SeleniumWait" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day16_SeleniumWait.C03_FluentWait" />
+      <option name="PACKAGE_NAME" value="techproed.day17_Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day17_Exceptions.C02_TimeOutException" />
       <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_ExplicitWaitClassWork.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_TimeOutException.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bach151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day16_SeleniumWait.*" />
+          <option name="PATTERN" value="techproed.day17_Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day16_SeleniumWait" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day16_SeleniumWait.C04_ExplicitWaitClassWork" />
+      <option name="PACKAGE_NAME" value="techproed.day17_Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day17_Exceptions.C02_TimeOutException" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_StaleElementReferenceException.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bach151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day17_Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day17_Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day17_Exceptions.C04_StaleElementReferenceException" />
       <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_StaleElementReferenceException.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bach151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day17_Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day17_Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day17_Exceptions.C04_StaleElementReferenceException" />
+      <option name="METHOD_NAME" value="test04" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C04_ExplicitWaitClassWork.test01" />
-        <item itemvalue="JUnit.C03_FluentWait.test02" />
-        <item itemvalue="JUnit.C01_ExplicitWait.test04" />
-        <item itemvalue="JUnit.C01_ExplicitWait.test01" />
-        <item itemvalue="JUnit.C03_FileUploadTest.test01" />
+        <item itemvalue="JUnit.C04_StaleElementReferenceException.test04" />
+        <item itemvalue="JUnit.C04_StaleElementReferenceException.test01" />
+        <item itemvalue="JUnit.C02_TimeOutException.test03" />
+        <item itemvalue="JUnit.C02_TimeOutException.test02" />
+        <item itemvalue="JUnit.C02_TimeOutException.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687206976389</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="20/06/23">
+      <created>1687294890460</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687294890460</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -250,7 +257,8 @@
     <MESSAGE value="15/06/23" />
     <MESSAGE value="16/06/23" />
     <MESSAGE value="19/06/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="19/06/23" />
+    <MESSAGE value="20/06/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="20/06/23" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -42,7 +42,6 @@ SELENIUM WAIT:
         //visibilityOf() metoduyla gorunur olana kadar bekler.
 
         Assert.assertEquals("Hello World!",helloWorldText.getText());
-
     }
 
     @Test
