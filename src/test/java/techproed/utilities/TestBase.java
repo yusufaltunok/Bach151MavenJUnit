@@ -1,19 +1,22 @@
 package techproed.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Before;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public abstract class TestBase {
@@ -88,7 +91,7 @@ public abstract class TestBase {
         driver.switchTo().window(pencereler.get(index));
     }
     //SwitchTo Window-2
-    public void switchToWindow2(int index){
+    public void switchWindow(int index){
         driver.switchTo().window(driver.getWindowHandles().toArray()[index].toString());
     }
 
@@ -117,6 +120,33 @@ public abstract class TestBase {
         new FluentWait<>(driver).withTimeout(Duration.ofSeconds(saniye)).
                 pollingEvery(Duration.ofMillis(milisaniye)).
                 until(ExpectedConditions.visibilityOf(element));
+    }
+
+    // Tüm Sayfa resmi (ScreenShot)
+    public void tumSayfaResmi () {
+        String tarih = new SimpleDateFormat("_hh_mm_ss_ddMMyyyy").format(new Date());
+        String dosyaYolu = "src/test/java/techproed/TumSayfaResmi/screenShot" + tarih + ".jpeg";
+
+        TakesScreenshot ts = (TakesScreenshot) driver;
+        try {
+            FileUtils.copyFile(ts.getScreenshotAs(OutputType.FILE),new File(dosyaYolu)); // File ile yapılışı
+            // Files.write(Paths.get(dosyaYolu),ts.getScreenshotAs(OutputType.BYTES));  // Files ile yapılışı
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+
+    // WebElement Resmi (WebElement ScreenShot)
+    public void webElementScreenShot (WebElement element) {
+        String tarih = new SimpleDateFormat("_hh_mm_ss_ddMMyyyy").format(new Date());
+        String dosyaYolu = "src/test/java/techproed/ElementResimleri/screenShot" + tarih + ".jpeg";
+
+        try {
+            FileUtils.copyFile(element.getScreenshotAs(OutputType.FILE),new File(dosyaYolu));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
 
