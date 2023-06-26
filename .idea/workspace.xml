@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83b15ede-f827-44ac-9d3c-32dc52535fc2" name="Changes" comment="22/06/23">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day18_ScreenShot/C01_TumSayfaResmi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day18_ScreenShot/C02_TumSayfaResmi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day18_ScreenShot/C03_WebElementResmi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day18_ScreenShot/C04_ScreenShotClassWork.java" afterDir="false" />
+    <list default="true" id="83b15ede-f827-44ac-9d3c-32dc52535fc2" name="Changes" comment="23/06/23">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day19_ExtentReports_WebTables/C01_ExtentReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day19_ExtentReports_WebTables/C02_ExtentReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day19_ExtentReports_WebTables/C03_WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testOutput/extentReports/extentReport_09_55_54_24062023.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,65 +59,64 @@
       <recent name="C:\Users\EXCALIBUR\Desktop\GitProjectNT\Bach151MavenJUnit\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C04_ScreenShotClassWork.test01">
-    <configuration name="C01_TumSayfaResmi.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C03_WebTables.test01">
+    <configuration name="C01_ExtentReport.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bach151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day18_ScreenShot.*" />
+          <option name="PATTERN" value="techproed.day19_ExtentReports_WebTables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day18_ScreenShot" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day18_ScreenShot.C01_TumSayfaResmi" />
+      <option name="PACKAGE_NAME" value="techproed.day19_ExtentReports_WebTables" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day19_ExtentReports_WebTables.C01_ExtentReport" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_TumSayfaResmi.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_ExtentReport.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bach151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day18_ScreenShot.*" />
+          <option name="PATTERN" value="techproed.day19_ExtentReports_WebTables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day18_ScreenShot" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day18_ScreenShot.C02_TumSayfaResmi" />
+      <option name="PACKAGE_NAME" value="techproed.day19_ExtentReports_WebTables" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day19_ExtentReports_WebTables.C02_ExtentReport" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_TumSayfaResmi.rest01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_WebTables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bach151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day18_ScreenShot.*" />
+          <option name="PATTERN" value="techproed.day19_ExtentReports_WebTables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day18_ScreenShot" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day18_ScreenShot.C03_TumSayfaResmi" />
-      <option name="METHOD_NAME" value="rest01" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="techproed.day19_ExtentReports_WebTables" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day19_ExtentReports_WebTables.C03_WebTables" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_WebElementResmi.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_WebTables.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bach151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day18_ScreenShot.*" />
+          <option name="PATTERN" value="techproed.day19_ExtentReports_WebTables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day18_ScreenShot" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day18_ScreenShot.C03_WebElementResmi" />
+      <option name="PACKAGE_NAME" value="techproed.day19_ExtentReports_WebTables" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day19_ExtentReports_WebTables.C03_WebTables" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C03_WebTables.test01" />
+        <item itemvalue="JUnit.C03_WebTables" />
+        <item itemvalue="JUnit.C02_ExtentReport.test01" />
+        <item itemvalue="JUnit.C01_ExtentReport.test01" />
         <item itemvalue="JUnit.C04_ScreenShotClassWork.test01" />
-        <item itemvalue="JUnit.C03_WebElementResmi.test01" />
-        <item itemvalue="JUnit.C03_TumSayfaResmi.rest01" />
-        <item itemvalue="JUnit.C02_TumSayfaResmi.test01" />
-        <item itemvalue="JUnit.C01_TumSayfaResmi.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687468218018</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="23/06/23">
+      <created>1687552226047</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687552226047</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -271,7 +278,8 @@
     <MESSAGE value="19/06/23" />
     <MESSAGE value="20/06/23" />
     <MESSAGE value="22/06/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="22/06/23" />
+    <MESSAGE value="23/06/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="23/06/23" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
