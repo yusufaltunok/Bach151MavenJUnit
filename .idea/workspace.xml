@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83b15ede-f827-44ac-9d3c-32dc52535fc2" name="Changes" comment="23/06/23">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day19_ExtentReports_WebTables/C01_ExtentReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day19_ExtentReports_WebTables/C02_ExtentReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day19_ExtentReports_WebTables/C03_WebTables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testOutput/extentReports/extentReport_09_55_54_24062023.html" afterDir="false" />
+    <list default="true" id="83b15ede-f827-44ac-9d3c-32dc52535fc2" name="Changes" comment="25/06/23">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day20_WebTables_Excel/C01_WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day20_WebTables_Excel/C02_ExcelRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/resources/Capitals (2).xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day19_ExtentReports_WebTables/C03_WebTables.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,47 +45,67 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.lilittlecat.chatgpt.setting.ChatGPTSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/EXCALIBUR/Desktop/GitProjectNT/Bach151MavenJUnit/src/test/java/resourses",
+    "settings.editor.selected.configurable": "com.lilittlecat.chatgpt.setting.ChatGPTSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\EXCALIBUR\Desktop\GitProjectNT\Bach151MavenJUnit\src\test\java\resourses" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\EXCALIBUR\Desktop\GitProjectNT\Bach151MavenJUnit\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C03_WebTables.test01">
-    <configuration name="C01_ExtentReport.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C02_ExcelRead.excelReadTest3">
+    <configuration name="C02_ExcelRead.excelReadTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bach151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day19_ExtentReports_WebTables.*" />
+          <option name="PATTERN" value="techproed.day20_WebTables_Excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day19_ExtentReports_WebTables" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day19_ExtentReports_WebTables.C01_ExtentReport" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="techproed.day20_WebTables_Excel" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day20_WebTables_Excel.C02_ExcelRead" />
+      <option name="METHOD_NAME" value="excelReadTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ExtentReport.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_ExcelRead.excelReadTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bach151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day19_ExtentReports_WebTables.*" />
+          <option name="PATTERN" value="techproed.day20_WebTables_Excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day19_ExtentReports_WebTables" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day19_ExtentReports_WebTables.C02_ExtentReport" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="techproed.day20_WebTables_Excel" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day20_WebTables_Excel.C02_ExcelRead" />
+      <option name="METHOD_NAME" value="excelReadTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_ExcelRead.excelReadTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bach151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day20_WebTables_Excel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day20_WebTables_Excel" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day20_WebTables_Excel.C02_ExcelRead" />
+      <option name="METHOD_NAME" value="excelReadTest3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,12 +115,12 @@
       <module name="Bach151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day19_ExtentReports_WebTables.*" />
+          <option name="PATTERN" value="techproed.day20_WebTables_Excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day19_ExtentReports_WebTables" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day19_ExtentReports_WebTables.C03_WebTables" />
+      <option name="PACKAGE_NAME" value="techproed.day20_WebTables_Excel" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day20_WebTables_Excel.C03_WebTables" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,28 +130,12 @@
       <module name="Bach151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day19_ExtentReports_WebTables.*" />
+          <option name="PATTERN" value="techproed.day20_WebTables_Excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day19_ExtentReports_WebTables" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day19_ExtentReports_WebTables.C03_WebTables" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_ScreenShotClassWork.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bach151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day18_ScreenShot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day18_ScreenShot" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day18_ScreenShot.C04_ScreenShotClassWork" />
+      <option name="PACKAGE_NAME" value="techproed.day20_WebTables_Excel" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day20_WebTables_Excel.C03_WebTables" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C02_ExcelRead.excelReadTest3" />
+        <item itemvalue="JUnit.C02_ExcelRead.excelReadTest1" />
+        <item itemvalue="JUnit.C02_ExcelRead.excelReadTest2" />
         <item itemvalue="JUnit.C03_WebTables.test01" />
         <item itemvalue="JUnit.C03_WebTables" />
-        <item itemvalue="JUnit.C02_ExtentReport.test01" />
-        <item itemvalue="JUnit.C01_ExtentReport.test01" />
-        <item itemvalue="JUnit.C04_ScreenShotClassWork.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687552226047</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="25/06/23">
+      <created>1687773079028</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687773079028</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -279,7 +289,8 @@
     <MESSAGE value="20/06/23" />
     <MESSAGE value="22/06/23" />
     <MESSAGE value="23/06/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="23/06/23" />
+    <MESSAGE value="25/06/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="25/06/23" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
