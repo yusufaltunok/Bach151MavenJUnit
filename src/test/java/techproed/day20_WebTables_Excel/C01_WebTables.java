@@ -89,12 +89,33 @@ public class C01_WebTables extends TestBase {
        return satirSutun.getText();
     }
 
-    //ÖDEV
+
+    @Test
+    public void test02() {
+
+        //ÖDEV
 //C03_WebTables class'ı için aldığımız rapora gidelim
-    // not : driver.get("testOutput/extentReports/extentReport_09_51_40_26062023.html")
+        // not : driver.get("testOutput/extentReports/extentReport_09_51_40_26062023.html")
+        driver.get("testOutput/extentReports/extentReport_09_51_40_26062023.html");
+
 //Başlığın Extent Report olduğunu test edelim
+        Assert.assertEquals(driver.getTitle(),"Extent Report");
+
 //Rapor temasını dark yapalım
+        driver.findElement(By.id("theme-selector")).click();
+
 //Dashboard bölümüne gidip tabloyu yazdırınız
+        driver.findElement(By.xpath("(//a)[3]"));
+        System.out.println(driver.findElement(By.xpath("(//table)[3]")));
+
+
 //Tester'ın "isminiz" olduğunu doğrulayalım
+        String actualData = printData(2,2);
+        String expectedData = "Yusuf";
+        Assert.assertNotEquals(expectedData, actualData);
+
 //Sayfayı kapatalım
+        driver.close();
+    }
 }
+
