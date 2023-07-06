@@ -23,7 +23,6 @@ public class C03_JSExecutor_Click extends TestBase {
         driver.get("https://amazon.com");
         bekle(3);
 
-
         // sell linkinin resmini alalım
         WebElement sellLinki = driver.findElement(By.xpath("//*[.='Sell']"));
         webElementScreenShot(sellLinki);
@@ -39,7 +38,6 @@ public class C03_JSExecutor_Click extends TestBase {
         tumSayfaResmi();
 
     }
-
     @Test
     public void tet02() {
         // Amazon sayfasına gidiniz.

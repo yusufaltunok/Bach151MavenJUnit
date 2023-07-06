@@ -108,7 +108,6 @@ public class C01_WebTables extends TestBase {
         driver.findElement(By.xpath("(//a)[3]"));
         System.out.println(driver.findElement(By.xpath("(//table)[3]")));
 
-
 //Tester'ın "isminiz" olduğunu doğrulayalım
         String actualData = printData(2,2);
         String expectedData = "Yusuf";

@@ -17,8 +17,6 @@ public class C01_Iframe extends TestBase {
 
      */
 
-
-
     @Test
     public void test01() {
         //➢ https://testcenter.techproeducation.com/index.php?page=iframe
