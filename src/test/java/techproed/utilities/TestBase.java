@@ -46,6 +46,10 @@ public abstract class TestBase {
         bekle(2);
         //driver.quit();
     }
+    // Web sayfasına git methodu
+    public void girisYap(String url) {
+        driver.get(url);
+    }
 
     //HARD WAIT (Bekleme Methodu)
     public void bekle(int saniye) {

@@ -1,4 +1,4 @@
-package techproed.day22_;
+package techproed.day22_JSExecutor;
 
 import org.junit.Test;
 import org.openqa.selenium.By;

@@ -1,9 +1,8 @@
-package techproed.day22_;
+package techproed.day22_JSExecutor;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import techproed.utilities.TestBase;
 
