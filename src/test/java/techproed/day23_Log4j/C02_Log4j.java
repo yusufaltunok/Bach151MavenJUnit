@@ -19,7 +19,6 @@ public class C02_Log4j extends TestBase{
         driver.findElement(By.xpath("//i[@class='eicon-close']")).click();
         logger.info("Sayfada çıkan reklam kapatıldı.");
 
-
         //Baslığın Egitim içerdigini dogrulayalım
         Assert.assertFalse(driver.getTitle().contains("Egitim"));
         logger.error("Sayfa baslığı Egitim yazisi icermiyor");
